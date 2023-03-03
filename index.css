@@ -1,0 +1,318 @@
+.blackgraund {
+  background-color: #040404d1;
+}
+.Rectangle1 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 100%;
+  height: 80px;
+  background-color: #4520ab;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-gap: 110px;
+}
+
+.logoElbrus {
+  width: 175px;
+  height: 60px;
+  background: url(../Group14.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kino {
+  font-size: 30px;
+  position: absolute;
+  left: 17%;
+  top: 7%;
+  width: 50px;
+  height: 50px;
+}
+.myKino {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.myKino:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+.Store {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.Store:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+.shopping {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.shopping:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+.search {
+  width: 19.31px;
+  height: 20px;
+  background-image: url(../iconSearch.svg);
+  background-repeat: no-repeat;
+}
+.search:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+.personalСabinet {
+  width: 40px;
+  height: 40px;
+  background-image: url(../Ellipse.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.personalСabinet:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+.title1 {
+  width: 250px;
+  height: 40px;
+  color: #ffbc5b;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+.title1:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+.boxFilm {
+  position: absolute;
+  width: 90%;
+  height: 350px;
+  left: 5%;
+  top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.video1 {
+  width: 210px;
+  height: 300px;
+  background-image: url(../img/solo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.video1:hover {
+  border: 1px solid #040404d1;
+}
+.title2 {
+  color: rgba(240, 248, 255, 0.466);
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 137px;
+  top: 300px;
+}
+.title2:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+
+.video2 {
+  width: 210px;
+  height: 300px;
+  background-image: url(../img/doctorStrange.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.video2:hover {
+  border: 1px solid #040404d1;
+}
+.title3 {
+  color: rgba(240, 248, 255, 0.466);
+  width: 210px;
+  height: 40px;
+  position: absolute;
+  left: 483px;
+  top: 300px;
+}
+.title3:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+
+.video3 {
+  width: 210px;
+  height: 300px;
+  background-image: url(../img/glass.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.video3:hover {
+  border: 1px solid #040404d1;
+}
+.title4 {
+  color: rgba(240, 248, 255, 0.466);
+  width: 210px;
+  height: 40px;
+  position: absolute;
+  left: 829px;
+  top: 300px;
+}
+.title4:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+
+.buttonBoxFilm {
+  width: 20px;
+  height: 50px;
+  border-radius: 90%;
+  background-image: url(../кнопка.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1150px;
+  top: 350px;
+}
+.buttonBoxFilm:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+.boxFilm2 {
+  position: relative;
+  width: 90%;
+  height: 370px;
+  left: 5%;
+  top: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.video4 {
+  width: 210px;
+  height: 300px;
+  background-image: url(../img/zveropolis.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.video4:hover {
+  border: 1px solid #040404d1;
+}
+.title5 {
+  color: rgba(240, 248, 255, 0.466);
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 132px;
+  top: 300px;
+}
+.title5:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+
+.video5 {
+  width: 210px;
+  height: 300px;
+  background-image: url(../img/starWars.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.video5:hover {
+  border: 1px solid #040404d1;
+}
+.title6 {
+  color: rgba(240, 248, 255, 0.466);
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  left: 473px;
+  top: 300px;
+}
+
+.title6:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+.video6 {
+  width: 210px;
+  height: 300px;
+  background-image: url(../img/mulan.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.video6:hover {
+  border: 1px solid #040404d1;
+}
+.title7 {
+  color: rgba(240, 248, 255, 0.466);
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 816px;
+  top: 300px;
+}
+.title7:hover {
+  color: #ffbc5b;
+  text-decoration: underline;
+}
+
+.title8 {
+  width: 310px;
+  height: 40px;
+  color: #ffbc5b;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+.title8:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+.buttonBoxFilm2 {
+  width: 20px;
+  height: 50px;
+  border-radius: 90%;
+  background-image: url(../кнопка.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1150px;
+  top: 800px;
+}
+.buttonBoxFilm2:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
